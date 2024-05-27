@@ -1,265 +1,193 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: left
+    education: False
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Satwiko Wirawan Indrawanto
+    tagline: Software Engineer
+    avatar: profile.png
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: satwikowirawan(at)gmail.com
+    phone: +62 81 2232 8824
+    location: Bandung, Indonesia
+    behance: satwikowirawan
+    linkedin: satwikowirawan
+    instagram: satwikowirawan
+    pdf: https://satwire.github.io/cv/assets/cv.pdf
 
     languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+        title: languages
+        info:
+            - idiom: Indonesian
+              level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+            - idiom: English
+              level: Professional
 
     interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+        title: interests
+        info:
+            - item: Video Games
+              link:
 
-        - item: Snowboarding
-          link:
+            - item: Trading Card Games
+              link:
 
-        - item: Cooking
-          link:
+            - item: Model Kits
+              link:
 
-career-profile:
-    title: Career Profile
+            - item: Drawing
+              link:
+
+            - item: Photography
+              link:
+
+            - item: Videography
+              link:
+
+            - item: Music
+              link:
+
+profile:
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        A curious do-it-yourself person who tends to disassemble and repair things by myself and a dedicated computer whiz, with a well-maintained hobby in creative motion graphics and videography. Sometimes draws and occasionally plays music.
 education:
-    title: Education
+    title: education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - degree: 🧑🏻‍🎓 M.Sc. in Game and Media Technology
+          university: Utrecht University
+          time: September 2017 - August 2019
+          details: |
+              Master thesis: Porting and Maintaining a Developing OptiX Path Tracer for Non-NVIDIA Devices.
+
+              The master thesis focuses on the possibility of porting code written in a device-specific programming language to a language that is compatible across devices from different vendors. The implementation requires deep knowledge of GPU programming and several high-level programming languages.
+
+              Courses:
+                - Motion and Manipulation
+                - Optimization and Vectorization
+                - Advanced Graphics
+                - Sound and Music Technology
+                - Computer Vision
+                - Game Physics
+                - Computer Animation
+                - Games and Agents.
+
+              Skills learned:
+                - C++
+                - CUDA
+                - OpenCL
+                - Python
+                - OpenCV
+                - TensorFlow
+        - degree: 🧑🏻‍🎓 B.Eng. in Electrical Engineering
+          university: Institut Teknologi Bandung
+          time: August 2008 - July 2013
+          details: |
+              Final Project: Fingerprint Image Processing with Verification and Identification Design and Implementation for Automated Fingerprint Identification System
+
+              This project acts as the bachelor thesis and was made as a prototype for the Indonesian e-KTP (electronic resident identity card). In principle, fingerprints are scanned into images and processed into data that can be compared to other fingerprints that are stored in a secure remote database. In detail, the project discusses necessary image processing for turning an RGB two-dimensional fingerprint image into minutiae binary data. This project was implemented using C# in Visual Studio.
+
+              Skills learned:
+                - C
+                - C#
+                - Matlab
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - role: 💻 Back End Developer
+          time: May 2022 - October 2023
+          company: Virgo (PT Capital Net Indonesia), Jakarta (Remote)
+          details: |
+              Led a small branch development team with a focus on integrating APIs for digital goods, QRIS, and BI Snap. Developed, optimized, and maintained pivotal services handling the financial app's logic. Specialized in crafting efficient, scalable, and readable code to ensure seamless functionality. Collaborated with cross-functional teams to deliver impactful solutions.
+
+              Skills learned:
+                - Golang
+                - MySQL
+                - gRPC
+                - Kafka
+        - role: 💻 Machine Learning Engineer
+          time: July 2021 - December 2021
+          company: Midas Financials, Jakarta (Remote)
+          details: |
+              Developed a machine learning-based AI assistant for a financial tech startup running in a Google Cloud Platform microservice environment.
+
+              Skills learned:
+                - Kubernetes
+                - Google Cloud Platform
+                - REST API
+        - role: 🧑🏻‍🏫 Teaching Assistant
+          time: April 2019 - July 2019
+          company: Utrecht University, Utrecht
+          details: |
+              Teaching Assistant for Computer Animation, a master course at Utrecht University that discusses a variety of topics related to computer animation, such as motion capture, blending, (inverse) kinematics, physics-based animation, and more. Guided master students in Utrecht University's Motion Capture Lab, offering technical assistance for live motion capture using Vicon Blade and processing the acquired data using industry 3D animation software and popular game engines.
+
+              Skills learned:
+                - Motion Capture
+                - MotionBuilder
+                - Maya
+                - 3ds Max
+                - Unreal Engine
+                - Unity
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+    title: Certifications
+    list:
+        - name: Visual Communication using Adobe Photoshop CS5
+          start: 2013
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: Certiport
+          credentialid: 90030576
+          credentialurl: www.certiport.com
+          credentialname: Certiport
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+              The Visual Communication using Adobe Photoshop certification exam validates entry-level skills needed to plan, design, build, and maintain effective communications corresponding to the Adobe Photoshop application.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        Several side projects in programming.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - title: Komando Daerah Militer Jayakarta
+          link: "#"
+          tagline: "Designed and programmed a real-time live multi camera surveillance server using various AI detections. From September 2023 to December 2023"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - title: Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)
+          link: "#"
+          tagline: "Indonesian Thematic Robot Contest Software Research and Development for Kontes Robot Indonesia 2021, 2022, and 2023 under Pusat Prestasi Nasional (PUSPRESNAS). Seasonal from 2021 to 2023"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skill Confidence Levels
 
     toolset:
-      - name: Python & Django
-        level: 98%
+        - name: Python / OpenCV
+          level: 92%
 
-      - name: Javascript & jQuery
-        level: 98%
+        - name: C / C++
+          level: 87%
 
-      - name: Angular
-        level: 98%
+        - name: Golang
+          level: 85%
 
-      - name: HTML5 & CSS
-        level: 95%
+        - name: CUDA / OpenCL
+          level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
+        - name: HTML / CSS /PHP
+          level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
+        - name: Adobe Photoshop
+          level: 92%
+
+        - name: Adobe Illustrator
+          level: 70%
+
+        - name: Adobe After Effects
+          level: 87%
+
+        - name: Adobe Premiere Pro
+          level: 83%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
