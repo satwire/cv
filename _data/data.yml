@@ -9,8 +9,8 @@ sidebar:
 
     # Sidebar links
     email: satwikowirawan(at)gmail.com
-    phone: +62 81 2232 8824
-    location: Bandung, Indonesia
+    phone: +62 81 2232 8824 (WhatsApp)
+    location: Toyohashi, Aichi, Japan
     behance: satwikowirawan
     linkedin: satwikowirawan
     instagram: satwikowirawan
@@ -56,6 +56,11 @@ profile:
 education:
     title: education
     info:
+        - degree: 🧑🏻‍🎓 Ph.D in Computer Science
+          university: Toyohashi University of Technology
+          time: October 2024 - Present
+          details: |
+              Research: 4 Dimensional Reconstruction from Monocular Videos
         - degree: 🧑🏻‍🎓 M.Sc. in Game and Media Technology
           university: Utrecht University
           time: September 2017 - August 2019
@@ -150,13 +155,17 @@ projects:
     intro: >
         Several side projects in programming.
     assignments:
+        - title: T-Class Toyota Indonesia
+          tagline: "Backend bug-fixing and database query optimization for Toyota Indonesia's training management portal. Uses Golang, PostgreSQL, Redis, and REST API. From December 2024 to January 2025"
+
+        - title: "SMILE: Sistem Monitoring Imunisasi dan Logistik Secara Elektronik - United Nations Development Programme"
+          tagline: "Backend bug-fixing and database query optimization for UNDP's waste management system. Uses Golang, PostgreSQL, Redis, and REST API. From August to November 2024"
+
         - title: Komando Daerah Militer Jayakarta
-          link: "#"
-          tagline: "Designed and programmed a real-time live multi camera surveillance server using various AI detections. From September 2023 to December 2023"
+          tagline: "Designed and programmed a real-time live multi camera surveillance server using various AI detections. Uses Python, PostgreSQL, OpenCV, Pytorch, and Tensorflow. From September 2023 to December 2023"
 
         - title: Kementerian Pendidikan dan Kebudayaan (Ministry of Education and Culture Republic of Indonesia)
-          link: "#"
-          tagline: "Indonesian Thematic Robot Contest Software Research and Development for Kontes Robot Indonesia 2021, 2022, and 2023 under Pusat Prestasi Nasional (PUSPRESNAS). Seasonal from 2021 to 2023"
+          tagline: "Indonesian Thematic Robot Contest Software Research and Development for Kontes Robot Indonesia 2021, 2022, and 2023 under Pusat Prestasi Nasional (PUSPRESNAS). Uses Python and OpenCV. Seasonal from 2021 to 2023"
 
 skills:
     title: Skill Confidence Levels
